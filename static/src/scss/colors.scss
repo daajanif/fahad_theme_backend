@@ -1,0 +1,21 @@
+// To change community theme color
+
+$o-community-color: #010048;
+$o-brand-odoo: #1d4c84;
+$o-brand-primary: #16587e;
+$mk-required-color: #d1d3d4;
+$mk-apps-color: #f8f9fa;
+$mk-appbar-color: #e6e7e7;
+$mk-appbar-background: #000000;
+$mk-brand-gradient-start: lighten($o-brand-odoo, 10%);
+$mk-brand-gradient-end: lighten($o-brand-odoo, 20%);
+
+//icons
+.o_form_view .oe_button_box .oe_stat_button .o_button_icon {
+    color: #1d4c84;
+}
+
+//sucess
+.text-success {
+    color: #005915 !important;
+}
