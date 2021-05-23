@@ -19,3 +19,19 @@ $mk-brand-gradient-end: lighten($o-brand-odoo, 20%);
 .text-success {
     color: #005915 !important;
 }
+
+//required input 
+.o_required_modifier.o_input, .o_required_modifier .o_input {
+    background-color: #eee !important;
+}
+
+// input
+.o_input {
+    border: 1px solid #adb5bd;
+    color: #4c4c4c;
+}
+
+//tool tip
+o_tooltip::before {
+    background: radial-gradient(#1d4c84, #153761);
+}
